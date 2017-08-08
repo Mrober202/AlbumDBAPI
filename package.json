@@ -1,0 +1,21 @@
+{
+  "name": "mongo_practice",
+  "version": "1.0.0",
+  "main": "mongo.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31"
+  },
+  "devDependencies": {
+    "webpack": "^3.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "build": "cd client && webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
